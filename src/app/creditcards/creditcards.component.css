@@ -1,0 +1,113 @@
+/* Style for count cards */
+.count-card {
+    color: white;
+    flex: 1;
+    margin: 10px;
+    padding: 16px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .count-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  /* Specific background overrides */
+  .bg-success {
+    background-color:rgb(43, 189, 181);
+  }
+  
+  .bg-warning {
+    background-color: rgb(228, 189, 189);
+  }
+  
+  .bg-info {
+    background-color: lightcoral;
+  }
+  
+  .bg-primary {
+    background-color: lightslategrey;
+  }
+  
+  /* Responsive row layout */
+  .mat-card[style*="flex-direction: row"] {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  /* Style for the main mat-card (table container) */
+  .mat-card {
+    margin: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th.mat-header-cell {
+    font-weight: bold;
+    background: #f8f9fa;
+    color: #333;
+  }
+  
+  td.mat-cell, th.mat-header-cell {
+    padding: 12px 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  td.mat-cell img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 6px;
+  }
+ 
+  
+  td.mat-cell a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 6px;
+  }
+  
+  td.mat-cell a:hover {
+    text-decoration: underline;
+  }
+ #actionIconsEdit{
+    color: rgb(19, 241, 67);
+ }
+  #actionIconsDelete{
+    color: red;
+  }
+  /* Media Query: Responsive layout */
+  @media (max-width: 768px) {
+    .mat-card[style*="flex-direction: row"] {
+      flex-direction: column;
+    }
+  
+    .count-card {
+      margin: 10px 0;
+    }
+  
+    table th, table td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    td.mat-cell img {
+      width: 18px;
+      height: 18px;
+    }
+  
+    mat-paginator {
+      display: block;
+      text-align: center;
+    }
+  }
+  

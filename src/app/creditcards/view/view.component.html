@@ -1,0 +1,25 @@
+
+<ng-container class="mat-card" *ngIf="creditCardDetails">
+
+<!-- Cards with media area -->
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title-group>
+      <mat-card-title>{{creditCardDetails.name}}</mat-card-title>
+      <mat-card-subtitle>{{creditCardDetails.bankName}}</mat-card-subtitle>
+    </mat-card-title-group>
+  </mat-card-header>
+  <mat-card-content>
+
+<div><b>CreditCard Id: </b> {{creditCardDetails.id}}</div>
+<div><b>Description: </b>{{creditCardDetails.description}}</div>
+<div><b>Max Credit: </b>{{creditCardDetails.maxCredit}}</div>
+<div><b>Interest Rate: </b>{{creditCardDetails.interestRate}}</div>
+<div><b>Recommended Score: </b>{{creditCardDetails.recommendedScore}}</div>
+<div><b>Active: </b>{{creditCardDetails.active}}</div>
+
+</mat-card-content>
+</mat-card>
+
+</ng-container>
+

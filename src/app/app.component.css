@@ -1,0 +1,50 @@
+.header-spacer {
+    flex: 1 1 auto;
+  }
+  
+.header-toolbar{
+    background-color: #3c4852;
+    color: white;
+    padding: 10px;
+}  
+.app-title{
+    padding-left: 20px;
+}
+.content-container{
+height: 100%;
+border: 1px solid #ddd;
+min-height: 100vh;
+}
+
+.sidebar{
+    background-color: lightyellow;
+    height: 100%;
+    width: 250px;
+}
+.mat-card{
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .header-toolbar {
+      flex-wrap: wrap;
+      padding: 8px;
+    }
+  
+    .app-title {
+      font-size: 18px;
+      margin-left: 8px;
+    }
+  
+    .sidebar {
+      width: 180px;
+    }
+  
+    .main-content {
+      padding: 12px;
+    }
+  
+    .example-icon {
+      margin: 4px;
+    }
+  }
