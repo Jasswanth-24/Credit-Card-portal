@@ -1,1 +1,19 @@
-<p>search works!</p>
+<main>
+    <input type="number" [(ngModel)]="SearchId" placeholder="Enter Credit Card ID" class="form-control">
+    <button type="button" (click)="SearchCard()">Search</button>
+  </main>
+  
+  <div *ngIf="creditCard; else notFound" class="creditcardsearch">
+    <div><b>ID:</b> {{ creditCard.id }}</div><br>
+    <div><b>Name:</b> {{ creditCard.name }}</div><br>
+    <div><b>Description:</b> {{ creditCard.description }}</div><br>
+    <div><b>Max Credit:</b> {{ creditCard.maxCredit }}</div><br>
+    <div><b>Interest Rate:</b> {{ creditCard.interestRate }}</div><br>
+    <div><b>Recommended Score:</b> {{ creditCard.recommendedScore }}</div><br>
+    <div><b>Active:</b> {{ creditCard.active }}</div><br>
+  </div>
+  
+  <ng-template #notFound>
+    <p *ngIf="errorMessage" style="color: red;">{{ errorMessage }}</p>
+  </ng-template>
+  

@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   toggleSidebar() {
     this.sidebarOpen = !this.sidebarOpen;
   }
-
+//media query ts
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
     this.updateSidebarState(event.target.innerWidth);

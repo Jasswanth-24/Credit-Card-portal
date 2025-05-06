@@ -1,20 +1,6 @@
 {
   "creditcards": [
     {
-      "id": "2",
-      "name": "SBI Bank",
-      "description": "SBI Bank offers customers with various options",
-      "bankName": "SBI Bank",
-      "maxCredit": 3000,
-      "interestRate": 10,
-      "active": true,
-      "recommendedScore": "700-900",
-      "annualFee": 4,
-      "termsAndConditions": "Following are the terms and conditions",
-      "createdDate": "2023-31-08",
-      "updatedDate": "2023-31-08"
-    },
-    {
       "id": "4",
       "name": "Mastercard",
       "description": "Mastercard offers customers with various options",
@@ -23,10 +9,7 @@
       "interestRate": 10,
       "active": true,
       "recommendedScore": "700-900",
-      "annualFee": 4,
-      "termsAndConditions": "Following are the terms and conditions",
-      "createdDate": "2023-31-08",
-      "updatedDate": "2023-31-08"
+      "annualFee": 4
     },
     {
       "id": "5",
@@ -197,20 +180,6 @@
       "updatedDate": "2024-12-10T05:00:00.000Z"
     },
     {
-      "id": "1746198831693",
-      "name": "Platinumcard",
-      "description": "this my card",
-      "bankName": "ICICI",
-      "maxCredit": 5000,
-      "interestRate": "6.5",
-      "active": true,
-      "recommendedScore": "100-500",
-      "annualFee": 12,
-      "termsAndConditions": "Terms and conditions for the credit card",
-      "createdDate": "2025-05-14T18:30:00.000Z",
-      "updatedDate": "2025-05-04T18:30:00.000Z"
-    },
-    {
       "id": "1746199816605",
       "name": "Silvercard",
       "description": "this is my card",
@@ -225,7 +194,7 @@
       "updatedDate": "2025-05-02T18:30:00.000Z"
     },
     {
-      "id": 1746205553296,
+      "id": "1746205553296",
       "name": "Goldcard",
       "description": "Mastercard offers customers with various options",
       "bankName": "ICICI",
@@ -239,7 +208,7 @@
       "updatedDate": "2025-05-23T18:30:00.000Z"
     },
     {
-      "id": 1746205715463,
+      "id": "1746205715463",
       "name": "Platinumcard",
       "description": "Mastercard offers customers with various options",
       "bankName": "Union City Bank",
@@ -251,6 +220,20 @@
       "termsAndConditions": "Terms and conditions for the credit card",
       "createdDate": "2025-05-21T18:30:00.000Z",
       "updatedDate": "2025-05-23T18:30:00.000Z"
+    },
+    {
+      "id": "1746526164892",
+      "name": "Silvercard",
+      "description": "This is my new card",
+      "bankName": "SBI",
+      "maxCredit": 5000,
+      "interestRate": 12,
+      "active": true,
+      "recommendedScore": "100-500",
+      "annualFee": 12,
+      "termsAndConditions": "Terms and conditions for the credit card",
+      "createdDate": "2025-05-12T18:30:00.000Z",
+      "updatedDate": "2025-05-02T18:30:00.000Z"
     }
   ]
 }
